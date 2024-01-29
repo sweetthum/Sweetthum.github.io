@@ -8,7 +8,7 @@
 <body>
     <form action="">
         <label for="name">ชื่อ</label>
-            <input type="text" name="name" id="" />
+            <input type="text" name="name" id="" value="" placeholder="Please type your name" width="100" />
             <br/>
         <label for="surname">นามสกุล</label>
             <input type="text" name="surname" id="" />
@@ -23,7 +23,10 @@
             <option value="VB.NET">VB.NET</option>
             <option value="PHP">PHP</option>
             <option value="Python" selected>Python</option>
-        </select>
+        </select>/
+        <label for="desc"></label>
+        <textarea name="descrip" id="desc"></textarea>
+        <input type="submit" value="OK" onclick="alert('Hello');" / >
     </form>
 </body>
 </html>
