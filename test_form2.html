@@ -28,20 +28,25 @@
         <textarea name="descrip" id="desc"></textarea>
         <input type="submit" value="OK" onclick="alert('Hello');" / >
 
-        <br/> button <input type="button" value="hello"> </input>
-        <br/> checkbox <input type="checkbox" name="fruit" value="banana"> <label for="fruit">banana</label>
-        <br/> checkbox <input type="checkbox" name="fruit" value="banana">
-        <br/> checkbox <input type="checkbox" name="fruit" value="banana">
-        <br/> color <input type="color" />
-        <br/> date <input type="date" />
-        <br/> datetime-local <input type="datetime-local" />
-        <br/> email <input type="email" />
-        <br/> file <input type="file"/>
-        <br/> hidden <input type="hidden" />
-        <br/> image <input type="image" />
-        <br/> month <input type="month" />
-        <br/> number <input type="number" />
-        <br/> password <input type="password" />
+        <br/> Button <input type="button" value="hello" onclick="console.log('Hello this is from button');"> </input>
+        <br/> Checkbox <input type="checkbox" name="fruit" value="Banana"> <label for="fruit">Banana</label>
+        <br/> Checkbox <input type="checkbox" name="fruit" value="Apple"> <label for="fruit">Apple</label>
+        <br/> Checkbox <input type="checkbox" name="fruit" value="Orange"> <label for="fruit">Orange</label>
+        <br/> Checkbox <input type="checkbox" name="fruit" value="Coconut"> <label for="fruit">Coconut</label>
+        
+        <br/> Color <input type="color" name="color_main"/>
+        <br/> คุณเลือก สี <span id = "your color choose is">NONE</span>
+        <br/> <input type="button" onclick="console.log(document.forms[0]['color_main'].value)" value="Get Color" style="font-size : 1.5em ;"></input>
+        <br/> Date <input type="date" /> 
+        <br/> Datetime-Local <input type="datetime-local" />
+        <br/> Email <input type="email" />
+        <br/> File <input type="file"/>
+        <br/> Hidden <input name="h" type="hidden" value="this_is_hidden" />
+        <br/> <input type="Submit" value="OK"></input>
+        <br/> Image <input type="image" src="S__4366344.jpg"/>
+        <br/> Month <input type="month" />
+        <br/> Number <input type="number" />
+        <br/> Password <input type="password" />
         <br/> <input type="radio">
 
 
