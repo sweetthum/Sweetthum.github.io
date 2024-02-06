@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            min-height: 100px;
+            background-color: rgba(0,255,55,0.9);
+            margin-top: 15px;
+        }
+        .header{
+            background-color: crimson;
+        }
+        /* #web_head{
+            color: white;
+        } */
+        .header h1{ 
+            color: red;
+        }
+
+        .header>div>h1{
+            color: pink;
+        }
+
+        .main_content h1 {
+            text-decoration-style: dashed;
+            text-decoration-line: line-through;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header" style="background-color: blue;">
+        <div>
+            <h1 id="web_head">ทดสอบบรรทัดแรก</h1>
+        </div>
+        <h1 id="web_head">ทดสอบบรรทัดแรก_ซ้อนย่อยด้านใน</h1>
+    </div>
+    <div class="main_content">
+        ทดสอบบรรทัดที่สอง
+        <P class="first_p">ทดสอบบรรทัดที่สอง_ย่อย1</P>
+        <P>ทดสอบบรรทัดที่สอง_ย่อย2</P>
+        <P>ทดสอบบรรทัดที่สอง_ย่อย3</P>
+        <P>ทดสอบบรรทัดที่สอง_ย่อย4</P>
+        <P>ทดสอบบรรทัดที่สอง_ย่อย5</P>
+        <h1>ทดสอบบรรทัดแรก</h1>
+    </div>
+    <div class="form_data">
+        ทดสอบบรรทัดที่สาม
+        <P>ทดสอบบรรทัดที่สาม_ย่อย1</P>
+        <P>ทดสอบบรรทัดที่สาม_ย่อย2</P>
+        <P>ทดสอบบรรทัดที่สาม_ย่อย3</P>
+        <P>ทดสอบบรรทัดที่สาม_ย่อย4</P>
+        <P>ทดสอบบรรทัดที่สาม_ย่อย5</P>
+    </div>
+    <div class="product">ทดสอบบรรทัดที่สี่</div>
+    <div class="footer">ทดสอบบรรทัดที่ห้า</div>
+</body>
+</html>
